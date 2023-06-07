@@ -1,0 +1,57 @@
+.runningTextBackground {
+  position: absolute;
+  width: 100%;
+  height: 55px;
+  background: #f8c325;
+  top: 100%; /* Change the value from 836px to 100% */
+  overflow: hidden;
+  z-index: 1;
+}
+
+
+.runningTextContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.runningText {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 21px;
+  line-height: 55px;
+  color: #ffffff;
+  white-space: nowrap;
+  position: absolute;
+  animation: runningText 10s linear infinite;
+}
+
+.rhombus {
+  position: absolute;
+  width: 14px;
+  height: 15px;
+  left: calc(100% + 10px);
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #ffffff;
+  animation: runningRhombus 10s linear infinite;
+}
+
+@keyframes runningText {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+@keyframes runningRhombus {
+  0% {
+    left: calc(100% + 10px);
+  }
+  100% {
+    left: -14px;
+  }
+}

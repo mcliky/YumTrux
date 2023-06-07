@@ -1,0 +1,122 @@
+.introText {
+  position: absolute;
+  width: 566px;
+  height: 72px;
+  left: calc(50% - 566px / 2);
+  top: 120px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+  color: #312f2e;
+}
+
+.highlightedText {
+  color: #f8c325;
+}
+
+.yumDescription {
+  position: absolute;
+  width: 557px;
+  height: 56px;
+  left: calc(50% - 557px / 2 + 0.5px);
+  top: 230px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #312f2e;
+}
+
+.rectangleApple {
+  position: absolute;
+  width: 97.73px;
+  height: 30.07px;
+  left: calc(46.5% - 97.73px / 2);
+  top: 320px;
+  background: #312f2e;
+  border-radius: 5.01205px;
+}
+
+.apple {
+  position: absolute;
+  top: 7.5px;
+  left: 10px; /* Adjust the left value as needed */
+  width: 11.69px;
+  height: 13.37px;
+}
+
+.appleText {
+  position: absolute;
+  top: 5px;
+  left: 27px; /* Adjust the left value to position the text */
+  font-family: 'Rubik', sans-serif; /* Add 'Rubik' as the font family */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.5301px;
+  line-height: 160%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.rectanglePlayMarket {
+  position: absolute;
+  width: 97.73px;
+  height: 30.07px;
+  left: calc(55% - 97.73px / 2);
+  top: 320px;
+  background: #312f2e;
+  border-radius: 5.01205px;
+}
+
+.playMarketImg {
+  position: absolute;
+  top: 8px;
+  left: 10px; /* Adjust the left value as needed */
+  width: 11.69px;
+  height: 13.37px;
+}
+
+.playMarketText {
+  position: absolute;
+  top: 5px;
+  left: 27px; /* Adjust the left value to position the text */
+  font-family: 'Rubik', sans-serif; /* Add 'Rubik' as the font family */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.5301px;
+  line-height: 160%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.startButton {
+  position: absolute;
+  width: 249px;
+  height: 45px;
+  left: 641px;
+  top: 380px;
+  background:  #f8c325;
+  border-radius: 30px;
+  border: 0px;
+}
+
+.startButtonText{
+  position: absolute;
+width: 104px;
+height: 19px;
+left: 70px;
+bottom: -4.4px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}

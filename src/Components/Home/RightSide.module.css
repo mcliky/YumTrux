@@ -1,0 +1,92 @@
+.orderContainer {
+  position: absolute;
+  top: 250px; /* Adjust the top value to position it below the "Welcome to YumTrux" text */
+  right: 60px; /* Adjust the right value to position it on the right side */
+  /* Add any other styling properties as needed */
+}
+
+.order {
+  position: relative;
+  width: 44px;
+  right: 130px;
+  height: 44px;
+  margin: 20px auto;
+  background-image: url('../images/Ellipse%2026.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1;
+}
+
+.orderBag {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  right: 138.5px;
+  top: 28px;
+  background-image: url('../images/3.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 2;
+}
+
+.ordText {
+  position: absolute;
+  width: 155px;
+  height: 57px;
+  right: 10px;
+  top: 51px; /* Adjust the top value to position the text */
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #312f2e;
+}
+
+.userContainer {
+  position: absolute;
+  top: 430px; /* Adjust the top value to position it below the "Welcome to YumTrux" text */
+  right: 60px; 
+}
+
+.user {
+  position: relative;
+  width: 44px;
+  right: 130px;
+  height: 44px;
+  margin: 20px auto;
+  background-image: url('../images/Ellipse%2026.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1;
+}
+
+.userBase {
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  right: 139px;
+  top: 30px;
+  background-image: url('../images/4.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 2;
+}
+
+.userText {
+  position: absolute;
+  width: 155px;
+  height: 57px;
+  right: 10px;
+  top: 53px; /* Adjust the top value to position the text */
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #312f2e;
+}
