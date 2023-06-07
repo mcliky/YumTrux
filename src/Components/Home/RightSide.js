@@ -1,21 +1,23 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import style from './RightSide.module.css'
+import HomeData from '../Store/auth-context'
 
 const RightSide = () => {
+  const ctx = useContext(HomeData)
   return (
     <React.Fragment>
     <div className={style.orderContainer}>
       <div className={style.order}></div>
       <div className={style.orderBag}></div>
       <p className={style.ordText}>
-        Convenient platform for managing your food truck and processing orders
+        {ctx.rightSide1}
       </p>
     </div>
     <div className={style.userContainer}>
     <div className={style.user}></div>
     <div className={style.userBase}></div>
     <p className={style.userText}>
-      Convenient platform for managing your food truck and processing orders
+      {ctx.rightSide2}
     </p>
   </div>
   </React.Fragment>
