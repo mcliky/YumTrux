@@ -1,5 +1,5 @@
 import React,{useContext} from 'react';
-import style from './Welcome.module.css';
+import style from '../../Styles/Welcome.module.css';
 import appleImage from '../images/apple (Traced).png';
 import playMarketImage from '../images/google-play 1.png'
 import HomeData from '../Store/auth-context';

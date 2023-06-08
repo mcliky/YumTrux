@@ -1,5 +1,5 @@
 import React, {useContext} from 'react'
-import style from './RightSide.module.css'
+import style from '../../Styles/RightSide.module.css'
 import HomeData from '../Store/auth-context'
 
 const RightSide = () => {

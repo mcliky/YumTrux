@@ -1,5 +1,5 @@
 import React, {useContext} from 'react';
-import style from './LeftSide.module.css';
+import style from '../../Styles/LeftSide.module.css';
 import HomeData from '../Store/auth-context';
 
 export default function LeftSide() {

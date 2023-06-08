@@ -1,5 +1,5 @@
 import React from "react";
-import style from './Background.module.css';
+import style from '../../Styles/Background.module.css';
 
 export default function Background() {
   return (

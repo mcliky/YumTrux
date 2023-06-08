@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './RunningText.module.css';
+import style from '../../Styles/RunningText.module.css';
 
 export default function RunningText() {
   return (
