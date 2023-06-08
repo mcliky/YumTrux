@@ -1,0 +1,27 @@
+.banner-container {
+    overflow: hidden;
+    /* Hide the overflowing text */
+}
+
+.banner-text {
+    display: inline-block;
+    /* Ensure the text container doesn't expand to full width */
+    white-space: nowrap;
+    /* Prevent line breaks */
+}
+
+.banner-text-animation {
+    animation: bannerScroll linear infinite;
+}
+
+@keyframes bannerScroll {
+    0% {
+        transform: translateX(100%);
+        /* Start position off the right edge */
+    }
+
+    100% {
+        transform: translateX(-100%);
+        /* End position off the left edge */
+    }
+}
