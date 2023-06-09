@@ -6,7 +6,7 @@
   height: 44px;
   left: 200px;
   top: 268px;
-  background-image: url('../images/Ellipse%2026.png'); /* Update the file name and extension */
+  background-image: url('../Components/images//Ellipse%2026.png'); /* Update the file name and extension */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -19,7 +19,7 @@
   height: 26px;
   left: 209.5px;
   top: 277px;
-  background-image: url('../images/link-2.png');
+  background-image: url('../Components/images//link-2.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -46,7 +46,7 @@
   height: 44px;
   left: 200px;
   top: 456px;
-  background-image: url('../images/Ellipse%2026.png'); /* Update the file name and extension */
+  background-image: url('../Components/images//Ellipse%2026.png'); /* Update the file name and extension */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -59,7 +59,7 @@
   height: 23px;
   left: 212px;
   top: 467px;
-  background-image: url('../images/2.png');
+  background-image: url('../Components/images/2.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

@@ -11,7 +11,7 @@
   right: 130px;
   height: 44px;
   margin: 20px auto;
-  background-image: url('../images/Ellipse%2026.png');
+  background-image: url('../Components/images/Ellipse%2026.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -24,7 +24,7 @@
   height: 26px;
   right: 138.5px;
   top: 28px;
-  background-image: url('../images/3.png');
+  background-image: url('../Components/images//3.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -57,7 +57,7 @@
   right: 130px;
   height: 44px;
   margin: 20px auto;
-  background-image: url('../images/Ellipse%2026.png');
+  background-image: url('../Components/images/Ellipse%2026.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -70,7 +70,7 @@
   height: 23px;
   right: 139px;
   top: 30px;
-  background-image: url('../images/4.png');
+  background-image: url('../Components/images/4.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

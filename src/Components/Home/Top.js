@@ -1,6 +1,6 @@
 import React from "react"
 import Navbar from "./Navbar"
-import style from '../../styles/Home.module.css'
+import style from '../../Styles/Home.module.css'
 import logoYumSmall from '../images/348355384_779880837112899_122144659990263234_n 1.png';
 
 export default function Top(){
