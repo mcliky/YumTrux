@@ -1,0 +1,44 @@
+.leftRectangle {
+  position: absolute;
+  width: 587px;
+  height: 388px;
+  left: 115px;
+  top: 720px;
+  background: #312f2e;
+  border-radius: 20px;
+}
+
+.inside h2 {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  top: 44px;
+  /* identical to box height */
+  text-align: center;
+  color: #ffffff;
+}
+
+.inside p {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  /* or 140% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.rightRectangle {
+  position: absolute;
+  width: 587px;
+  height: 388px;
+  left: 740px;
+  top: 720px;
+  background: #312f2e;
+  border-radius: 20px;
+}

@@ -1,0 +1,62 @@
+.imagesContainer {
+  position: absolute;
+  width: 566px;
+  height: 497.81px;
+  left: 780px;
+  top: 168px;
+}
+
+.image1 {
+  position: absolute;
+  width: 230.72px;
+  height: 137.52px;
+  left: 0px;
+  top: 0px;
+  background: url('../Components/images/unsplash_m6fYkq_P2Cc.png');
+  border-radius: 8px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.image2 {
+  position: absolute;
+  width: 286.41px;
+  height: 337.55px;
+  left: 0px;
+  bottom: 0px;
+  background: url('../Components/images/unsplash_ye5T5R0G-GA.png');
+  border-radius: 8px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  z-index: 2;
+}
+
+.image3 {
+  position: absolute;
+  width: 312.55px;
+  height: 265.95px;
+  top: 0px;
+  right: 0px;
+  background: url('../Components/images/unsplash_-eeAvufLf9A.png');
+  border-radius: 8px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top right;
+  z-index: 1;
+}
+
+.image4 {
+  position: absolute;
+  width: 256.86px;
+  height: 209.12px;
+  bottom: 0px;
+  right: 0px;
+  background: url('../Components/images/unsplash_geeZzrAXyMQ.png');
+  border-radius: 8px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+

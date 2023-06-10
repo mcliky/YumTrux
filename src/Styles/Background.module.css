@@ -18,8 +18,8 @@
   }
   
   .innerBackgroundLeft {
-    position: absolute;
-    bottom: -9px;
+    position: relative;
+    bottom: -132px;
     left: 0;
     width: 780px;
     height: 362px;
@@ -34,7 +34,7 @@
     width: 468px;
     height: 472px;
     left: calc(50% - 468px/2 - 10px);
-    top: 365px;
+    top: 366px;
     background-image: url('../Components/images//mockuuups-jt2gf8W2UL8KuQ69zFvL9e\ 1.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -47,7 +47,7 @@
     width: 788px;
     height: 342px;
     left: 720px;
-    top: 495px;
+    top: 496px;
     background-image: url('../Components/images//philly-cheesesteak-sandwich-with-beef-cheesegreen-pepers-caramelized-onion.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -59,7 +59,7 @@
     width: 474px;
     height: 300px;
     left: 1045px;
-    top: 546px;
+    top: 538px;
     background-image: url('../Components/images//indian-butter-chicken-isolated-white-background.png');
     background-size: cover;
     background-repeat: no-repeat;

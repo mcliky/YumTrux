@@ -1,12 +1,14 @@
 .runningTextBackground {
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 55px;
   background: #f8c325;
-  top: 100%; /* Change the value from 836px to 100% */
+  top: -91.3px; /* Change the value from 836px to 100% */
   overflow: hidden;
   z-index: 1;
+  
 }
+
 
 
 .runningTextContainer {

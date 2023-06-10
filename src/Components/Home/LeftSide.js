@@ -1,6 +1,6 @@
 import React, {useContext} from 'react';
 import style from '../../Styles/LeftSide.module.css';
-import HomeData from '../Store/auth-context';
+import HomeData from '../Store/home-context';
 
 export default function LeftSide() {
   const ctx = useContext(HomeData)

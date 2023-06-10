@@ -1,0 +1,49 @@
+.aboutContainer {
+  position: relative;
+  width: 100%;
+  height: 930px;
+  left: 0px;
+  top: 36.4px;
+}
+
+.aboutTitle {
+  position: absolute;
+  left: 120px;
+  top: 150px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #312f2e;
+}
+
+.titleDesc {
+  position: absolute;
+  width: 1440px;
+  height: 55px;
+  left: 0px;
+  top: 181px;
+
+  background: #f8c325;
+}
+
+.aboutText {
+  position: absolute;
+  width: 566px;
+  height: 72px;
+  left: 113px;
+  top: 140px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+  color: #312f2e;
+}
+
+.aboutHighlightedText {
+  color: #f8c325;
+}

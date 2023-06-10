@@ -1,6 +1,6 @@
 import React, {useContext} from 'react'
 import style from '../../Styles/RightSide.module.css'
-import HomeData from '../Store/auth-context'
+import HomeData from '../Store/home-context'
 
 const RightSide = () => {
   const ctx = useContext(HomeData)

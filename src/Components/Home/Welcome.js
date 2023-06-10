@@ -2,7 +2,7 @@ import React,{useContext} from 'react';
 import style from '../../Styles/Welcome.module.css';
 import appleImage from '../images/apple (Traced).png';
 import playMarketImage from '../images/google-play 1.png'
-import HomeData from '../Store/auth-context';
+import HomeData from '../Store/home-context';
 
 export default function Welcome() {
   const ctx = useContext(HomeData)
