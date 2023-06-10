@@ -1,0 +1,96 @@
+.secondHalfContainer {
+  position: absolute;
+  width: 100%;
+  height: 1187px;
+  left: 0px;
+  top: 1200px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(248, 195, 37, 0.17) 100%
+  );
+}
+
+.secondHalfText {
+  position: absolute;
+  width: 918px;
+  height: 28px;
+  left: 135px;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 28px;
+  /* identical to box height, or 31% */
+
+  text-align: center;
+
+  color: #312f2e;
+}
+
+.highlightedText {
+  color: #f8c325;
+}
+
+.number1 {
+  position: absolute;
+  width: 70px;
+  height: 28px;
+  left: 135px;
+  top: 270px;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 28px;
+  /* identical to box height, or 47% */
+
+  text-align: center;
+
+  color: #f8c325;
+}
+
+.title1 {
+  position: absolute;
+  width: 255px;
+  height: 28px;
+  left: 135px;
+  top: 361px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 28px;
+  /* identical to box height, or 93% */
+  color: #312f2e;
+}
+
+.paragraph1 {
+  position: absolute;
+  width: 255px;
+  height: 92px;
+  left: 135px;
+  top: 417px;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  /* or 144% */
+
+  color: #312f2e;
+
+  opacity: 0.8;
+}
+
+.number2 {
+}
+
+.number3 {
+}
+
+.number4 {
+}
