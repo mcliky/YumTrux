@@ -7,7 +7,7 @@ function App() {
   return (
 <div className={style.mainBackground}>
 <Home></Home>
-<About></About>
+{/* <About></About> */}
 </div>
   );
 }

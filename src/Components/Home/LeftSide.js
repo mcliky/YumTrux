@@ -1,17 +1,14 @@
-import React, {useContext} from 'react';
-import style from '../../Styles/LeftSide.module.css';
-import HomeData from '../Store/home-context';
+import React from 'react'
+import Info from './Info'
+import link from '../images//link-2.png'
+import note from '../images/2.png'
+
+
 
 export default function LeftSide() {
-  const ctx = useContext(HomeData)
   return (
     <React.Fragment>
-      <div className={style.connection}></div>
-      <div className={style.connectionLink}></div>
-      <p className={style.conText}>{ctx.leftSide1}</p>
-      <div className={style.registration}></div>
-      <div className={style.registrationNote}></div>
-      <p className={style.regText}>{ctx.leftSide2}</p>
+      <Info style1={{ marginBottom: '10px' }} image2={link} image3={note}/>  
     </React.Fragment>
-  );
+  )
 }
