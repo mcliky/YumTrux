@@ -6,18 +6,17 @@ import Background from './Background'
 import RunningText from './RunningText'
 import LeftSide from './LeftSide'
 import RightSide from './RightSide'
+import Banner from './TestDiv';
 
 export default function Home() {
   return (
     <div className={style.mainBackground}>
-      <div className={style.HomeContainer}>
-        <Top />
-        <Welcome />
-        <LeftSide />
-        <RightSide />
-        <Background />
-        <RunningText />
-      </div>
+      <Top />
+      <Welcome />
+      <LeftSide />
+      <RightSide />
+      <Background />
+      <RunningText />
     </div>
-  )
+  );
 }
