@@ -13,7 +13,6 @@
 .image3 {
   width: 25px;
   height: 25px;
-  padding-right: 100px;
 }
 
 
@@ -30,4 +29,8 @@
   display: flex;  
   flex-direction: column;
   justify-content: space-between;
+  gap: 100px;
+  width: 160px;
+  margin-bottom: 25px !important;
+  padding-right: 800px;
   }

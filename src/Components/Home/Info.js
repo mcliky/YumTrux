@@ -8,10 +8,12 @@ const Info = props => {
     <img
       className={style.image1}
       src={circle}
+      alt='image1'
     />
     <img
       className={style.image2}
       src={`${props.image2}`}
+      alt='image2'
     />
     <p className={style.text}>{props.text1}</p>
     </div>
@@ -19,10 +21,12 @@ const Info = props => {
     <img
       className={style.image1}
       src={circle}
+      alt='image1'
     />
     <img
       className={style.image3}
       src={`${props.image3}`}
+      alt='image3'
     />
     <p className={style.text}>{props.text2}</p>
     </div>

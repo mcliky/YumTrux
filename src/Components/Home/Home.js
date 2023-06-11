@@ -15,8 +15,8 @@ export default function Home() {
       <Welcome />
       <LeftSide />
       <RightSide />
-      <Background />
-      <RunningText />
+      {/* <Background />
+      <RunningText /> */}
     </div>
   );
 }

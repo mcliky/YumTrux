@@ -1,8 +1,5 @@
 .backgroundContainer {
-    position: relative;
     width: 100%;
-    height: calc(100% - 100px);
-    margin-bottom: 100px;
     background: linear-gradient(
       180deg,
       rgba(255, 255, 255, 0) 0%,
@@ -11,10 +8,7 @@
   }
   
   .outerBackgroundLeft {
-    position: relative;
     width: 500px;
-    height: 448px;
-    top: 390px;
     overflow: hidden;
     background-image: url('../Components/images//salad-with-vitamins-body-weight-maintenance.png');
     background-size: contain;
@@ -23,11 +17,7 @@
   }
   
   .innerBackgroundLeft {
-    position: relative;
-    bottom: -28.6px;
-    left: 0;
     width: 720px;
-    height: 362px;
     background-image: url('../Components/images//traditional-mexican-tacos-with-meat-vegetables-isolated-white-background.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -35,11 +25,7 @@
   }
   
   .backgroundOverlay {
-    position: absolute;
     width: 468px;
-    height: 472px;
-    left: calc(50% - 468px/2 - 10px);
-    top: 366px;
     background-image: url('../Components/images//mockuuups-jt2gf8W2UL8KuQ69zFvL9e\ 1.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -48,11 +34,8 @@
   }
   
   .outerBackgroundRight {
-    position: absolute;
     width: 788px;
     height: 342px;
-    left: 720px;
-    top: 496px;
     background-image: url('../Components/images//philly-cheesesteak-sandwich-with-beef-cheesegreen-pepers-caramelized-onion.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -60,11 +43,8 @@
   }
   
   .innerBackgroundRight {
-    position: absolute;
     width: 474px;
     height: 300px;
-    left: 1045px;
-    top: 538px;
     background-image: url('../Components/images//indian-butter-chicken-isolated-white-background.png');
     background-size: cover;
     background-repeat: no-repeat;

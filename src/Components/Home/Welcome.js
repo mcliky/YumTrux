@@ -1,13 +1,13 @@
-import React,{useContext} from 'react';
+import React, { useContext } from 'react';
 import style from '../../Styles/Welcome.module.css';
 import appleImage from '../images/apple (Traced).png';
-import playMarketImage from '../images/google-play 1.png'
+import playMarketImage from '../images/google-play 1.png';
 import HomeData from '../Store/home-context';
 
 export default function Welcome() {
-  const ctx = useContext(HomeData)
+  const ctx = useContext(HomeData);
   return (
-    <div>
+    <div className={style.welcomeContainer}>
       <div className={style.introText}>
         <p>
           <span>{ctx.titleHalf1}</span>
@@ -17,15 +17,19 @@ export default function Welcome() {
       <div className={style.yumDescription}>
         <p>{ctx.desc}</p>
       </div>
-      <div className={style.rectangleApple}>
-      <img src={appleImage} alt="Apple" className={style.apple} />
-        <span className={style.appleText}>App Store</span>
+      <div className={style.rectangleContainer}>
+        <div className={style.rectangleApple}>
+          <img src={appleImage} alt="Apple" className={style.apple} />
+          <span className={style.appleText}>App Store</span>
+        </div>
+        <div className={style.rectanglePlayMarket}>
+          <img src={playMarketImage} alt="playMarket" className={style.playMarketImg} />
+          <span className={style.playMarketText}>Google Play</span>
+        </div>
       </div>
-      <div className={style.rectanglePlayMarket}>
-      <img src={playMarketImage} alt="playMarket" className={style.playMarketImg} />
-        <span className={style.playMarketText}>App Store</span>
-      </div>
-      <button className={style.startButton}><p className={style.startButtonText}>GET STARTED</p></button>
+      <button className={style.startButton}>
+        <p className={style.startButtonText}>GET STARTED</p>
+      </button>
     </div>
   );
 }

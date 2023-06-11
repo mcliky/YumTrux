@@ -1,14 +1,15 @@
+.welcomeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .introText {
-  position: absolute;
-  width: 566px;
-  height: 72px;
-  left: calc(50% - 566px / 2);
-  top: 120px;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
   font-size: 60px;
-  line-height: 72px;
+  height: 120px;
   color: #312f2e;
 }
 
@@ -17,11 +18,8 @@
 }
 
 .yumDescription {
-  position: absolute;
   width: 557px;
   height: 56px;
-  left: calc(50% - 557px / 2 + 0.5px);
-  top: 230px;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
@@ -29,94 +27,87 @@
   line-height: 28px;
   text-align: center;
   color: #312f2e;
+  margin-bottom: 29.93px;
+}
+
+.rectangleContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 200px; /* Adjust the width as needed */
 }
 
 .rectangleApple {
-  position: absolute;
   width: 97.73px;
   height: 30.07px;
-  left: calc(46.5% - 97.73px / 2);
-  top: 320px;
   background: #312f2e;
   border-radius: 5.01205px;
+  margin-bottom: 28px;
 }
 
 .apple {
-  position: absolute;
-  top: 7.5px;
-  left: 10px; /* Adjust the left value as needed */
   width: 11.69px;
   height: 13.37px;
+  padding-top: 5.35px;
+  padding-left: 7.35px;
+  padding-right: 0px
 }
 
 .appleText {
-  position: absolute;
-  top: 5px;
-  left: 27px; /* Adjust the left value to position the text */
-  font-family: 'Rubik', sans-serif; /* Add 'Rubik' as the font family */
+  font-family: 'Rubik', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12.5301px;
-  line-height: 160%;
-  text-align: center;
   color: #ffffff;
+  padding-left: 5.01px;
+  padding-bottom: 10px;
 }
 
 .rectanglePlayMarket {
-  position: absolute;
   width: 97.73px;
   height: 30.07px;
-  left: calc(55% - 97.73px / 2);
-  top: 320px;
   background: #312f2e;
   border-radius: 5.01205px;
+  margin-bottom: 28px;
 }
 
 .playMarketImg {
-  position: absolute;
-  top: 8px;
-  left: 10px; /* Adjust the left value as needed */
   width: 11.69px;
   height: 13.37px;
+  padding-left: 7px;
+  padding-right: 5px;
+  padding-top:5.5px;
 }
 
 .playMarketText {
-  position: absolute;
-  top: 5px;
-  left: 27px; /* Adjust the left value to position the text */
-  font-family: 'Rubik', sans-serif; /* Add 'Rubik' as the font family */
+  font-family: 'Rubik', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12.5301px;
   line-height: 160%;
   text-align: center;
   color: #ffffff;
+  padding-top: 5px;
 }
 
 .startButton {
-  position: absolute;
   width: 249px;
   height: 45px;
-  left: 641px;
-  top: 380px;
-  background:  #f8c325;
+  background: #f8c325;
   border-radius: 30px;
   border: 0px;
 }
 
-.startButtonText{
-  position: absolute;
-width: 104px;
-height: 19px;
-left: 70px;
-bottom: -4.4px;
-font-family: 'Lato';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 19px;
-text-align: center;
-text-transform: uppercase;
-
-color: #FFFFFF;
+.startButtonText {
+  width: 104px;
+  margin-top: 0;
+  padding-top: 12px;
+  padding-left: 70px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
 }
