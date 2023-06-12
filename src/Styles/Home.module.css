@@ -6,6 +6,13 @@
   top: 4px;
 }
 
+.parent{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
 .logoContainer {
   display: flex;
   align-items: center;

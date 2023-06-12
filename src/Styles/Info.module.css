@@ -1,36 +1,92 @@
+.leftContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 50px;
+  width: 160px;
+  margin-top: 200px;
+}
 
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 50px;
+  width: 160px;
+  margin-top: 200px;
+  margin-right: 100px; /* Add margin-right to create a gap on the right side */
+}
+
+
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+  
+}
 
 .image1 {
+  position: relative;
   width: 44px;
   height: 44px;
 }
 
 .image2 {
-  width: 25px;
-  height: 25px;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .image3 {
-  width: 25px;
-  height: 25px;
+  position: absolute;
+  width: 19px;
+  height: 22px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
+.image4 {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  right: 50%;
+  top: -10%;
+  transform: translate(50%, 50%);
+}
 
-.text {
+.image5 {
+  position: absolute;
+  width: 28px;
+  height: 21px;
+  right: 50%;
+  transform: translate(50%, 50%);
+}
+
+.leftText {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 19px;
   color: #312f2e;
+  text-align: left;
+  margin-left: 53px; /* Set the text alignment to left */
+  margin-top: -40px; /* Adjust the top margin as needed */
 }
 
-.leftContainer{
-  display: flex;  
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 100px;
-  width: 160px;
-  margin-bottom: 25px !important;
-  padding-right: 800px;
-  }
+.rightText {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  width: 155px;
+  line-height: 19px;
+  color: #312f2e;
+  text-align: left;
+  margin-left: 53px; /* Set the text alignment to left */
+  margin-top: -30px;
+}
+

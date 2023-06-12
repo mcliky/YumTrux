@@ -12,9 +12,11 @@ export default function Home() {
   return (
     <div className={style.mainBackground}>
       <Top />
+      <div className={style.parent}>
+      <LeftSide/>
       <Welcome />
-      <LeftSide />
-      <RightSide />
+      <RightSide/>
+      </div>
       {/* <Background />
       <RunningText /> */}
     </div>

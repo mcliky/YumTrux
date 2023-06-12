@@ -1,37 +1,29 @@
-import React from 'react'
-import style from '../../Styles/Info.module.css'
-import circle from '../images/Ellipse 26.png'
-const Info = props => {
-  return (
-    <div style={props.style1} className={style.leftContainer}>
-    <div>
-    <img
-      className={style.image1}
-      src={circle}
-      alt='image1'
-    />
-    <img
-      className={style.image2}
-      src={`${props.image2}`}
-      alt='image2'
-    />
-    <p className={style.text}>{props.text1}</p>
-    </div>
-    <div>
-    <img
-      className={style.image1}
-      src={circle}
-      alt='image1'
-    />
-    <img
-      className={style.image3}
-      src={`${props.image3}`}
-      alt='image3'
-    />
-    <p className={style.text}>{props.text2}</p>
-    </div>
-  </div>
-  )
-}
+import React from 'react';
+import style from '../../Styles/Info.module.css';
+import image1 from '../images/Ellipse 26.png';
 
-export default Info
+const Info = (props) => {
+  return (
+    <div className={props.side}>
+      <div className={style.imageWrapper}>
+        <div className={style.image1}>
+          <img className={style.image1} src={image1} alt="Img1" />
+          <img className={props.image2Style} src={props.image1} alt="Img 2" />
+        </div>
+      </div>
+
+      <p className={props.textSide}>{props.text1}</p>
+
+      <div className={style.imageWrapper}>
+        <div className={style.image1}>
+          <img className={style.image1} src={image1} alt="Img 1" />
+          <img className={props.image3Style} src={props.image2} alt="Img 3" />
+        </div>
+      </div>
+
+      <p className={props.textSide}>{props.text2}</p>
+    </div>
+  );
+};
+
+export default Info;
